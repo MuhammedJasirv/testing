@@ -25,7 +25,7 @@ const Hero = () => {
               }}
             >
               <div className="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Hi We </div>
-              <h1>Learn, Grow, and Stream – All in One App</h1>
+              <h1>Learn, Grow</h1>
               <p>
                A next-generation platform that seamlessly integrates education, digital marketing solutions, and a premium video streaming experience — empowering learners, educators, and businesses to thrive in the digital age.
               </p>
