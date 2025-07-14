@@ -17,7 +17,7 @@ const Hero = () => {
     <section className="it_solution_hero_section">
       <div className="container">
         <div className="row">
-          <div className="col-lg-7">
+          <div className="col-lg-7" >
             <div
               className="it_solution_hero_content"
               style={{
@@ -122,21 +122,22 @@ const Hero = () => {
                 </div>
               </li>
               <li>
-                <ul className="categories unordered_list_block">
+                <ul className="categories unordered_list_block ">
+
                   <li>
-                    <Link href="/">
+                    <Link href="/" style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                       <span>Education</span>
                       <i className="fa-solid fa-plus"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link href="/" style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                       <i className="fa-solid fa-plus"></i>
                       <span>Marketing</span>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link href="/" style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                       <span>Video platform </span>
                       <i className="fa-solid fa-plus"></i>
                     </Link>
