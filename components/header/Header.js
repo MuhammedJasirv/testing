@@ -78,7 +78,7 @@ const Header = (props) => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                   >
-                    <i className="far fa-bars"></i>
+                    <i className="far fa-bars text-white"></i>
                   </button>
                 </li>
                 <li>
