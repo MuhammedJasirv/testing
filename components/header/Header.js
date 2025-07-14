@@ -31,24 +31,25 @@ const Header = (props) => {
   }, []);
 
   return (
-    <header className="site_header site_header_1">
-      <div className="header_top text-center">
+    <header className="site_header site_header_1" >
+      {/* <div className="header_top text-center">
         <div className="container">
           <p className="m-0">
-            {/* Subscribe us and receive <b>20% bonus</b> discount on checkout.{" "} */}
+            Subscribe us and receive <b>20% bonus</b> discount on checkout.{" "}
             <Link onClick={ClickHandler} href="/">
-              {/* <u>Learn more</u> <i className="fa-solid fa-angle-right"></i> */}
+              <u>Learn more</u> <i className="fa-solid fa-angle-right"></i>
             </Link>
           </p>
         </div>
-      </div>
-      <div
+      </div> */}
+      <div style={{backgroundColor:"#043B64"}}
         className={`header_bottom stricky flex   ${
           isSticky ? "stricked-menu stricky-fixed" : ""
         }`}
       >
         <div
           className="container "
+          
           style={{
             display: "flex",
             justifyContent: "space-between",
@@ -86,11 +87,11 @@ const Header = (props) => {
                     className="btn btn-outline-light"
                     href="/"
                   >
-                    <span className="btn_label" data-text="Get Started">
+                    <span className="btn_label" style={{color:'white'}} data-text="Get Started">
                       Get Started
                     </span>
                     <span className="btn_icon">
-                      <i className="fa-solid fa-arrow-up-right"></i>
+                      <i className="fa-solid fa-arrow-up-right text-white" ></i>
                     </span>
                   </Link>
                 </li>

@@ -6,6 +6,7 @@ import About from '../components/about/about';
 import PolicySection from '../components/PolicySection/PolicySection';
 import ServiceSection from '../components/ServiceSection/ServiceSection';
 import Scrollbar from '../components/scrollbar/scrollbar';
+import ScrollingText from '../components/scrollingText/scrollingText';
 
 
 const HomePage = () => {
@@ -16,7 +17,8 @@ const HomePage = () => {
                 <Header />
                 <main className="page_content">
                     <Hero />
-                    <FeaturesSection />
+                    {/* <FeaturesSection /> */}
+                    {/* <ScrollingText/> */}
                     <About />
                     <PolicySection />
                     <ServiceSection />
