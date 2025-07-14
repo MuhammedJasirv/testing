@@ -28,7 +28,7 @@ const About = (props) => {
                 }}
               >
                 <Image
-                  src={'https://assets.entrepreneur.com/content/3x2/2000/1654025888-shutterstock-1178679262.jpg'}
+                  src={'https://cdn.mos.cms.futurecdn.net/PKHPHDsfUqomzoCi8VwegK.jpg'}
                   alt="Techco - About"
                   fill
                   style={{ objectFit: "cover" }}
@@ -59,7 +59,7 @@ const About = (props) => {
                 <p className="heading_description mb-0">
                   At Nexus Ventures LLC, we deliver smart solutions for
                   learners, marketers, and creators. From education to promotion
-                  to streaming — we’ve got you covered.
+                  to Platform — we’ve got you covered.
                 </p>
               </div>
               <ul className="icon_list unordered_list_block mb-5">
@@ -79,7 +79,7 @@ const About = (props) => {
                   <span className="icon_list_icon">
                     <i className="fa-solid fa-circle fa-fw"></i>
                   </span>
-                  <span className="icon_list_text">Video Streaming.</span>
+                  <span className="icon_list_text">Video Platform.</span>
                 </li>
               </ul>
               <ul className="btns_group unordered_list p-0 justify-content-start">

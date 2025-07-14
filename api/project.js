@@ -105,7 +105,7 @@ const Project = [
         Country: 'France, Paris',
         Technologies1: tImg4,
         Technologies2: tImg5,
-        description: 'Liberkeys is a modern real estate platform that is revolutionizing the way people buy, sell, and rent properties. With a focus on transparency, efficiency, and customer satisfaction, Liberkeys streamlines.',
+        description: 'Liberkeys is a modern real estate platform that is revolutionizing the way people buy, sell, and rent properties. With a focus on transparency, efficiency, and customer satisfaction, Liberkeys .',
     },
     {
         Id: '10',

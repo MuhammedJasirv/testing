@@ -8,6 +8,11 @@ import avatar3 from "/public/images/avatar/avatar_3.webp";
 import Image from "next/image";
 
 const Hero = () => {
+  const UserImg=[
+    "https://smartykids.ru/wp-content/uploads/2023/05/teens-high-school-study-abroad-e1586177174717-2048x1178.jpg",
+    'https://i.pinimg.com/originals/c1/b2/8e/c1b28e892453dc4e5918201a0a08caa6.jpg',
+    'https://2.bp.blogspot.com/-3PaCiKGPPRw/VVInwHQQtSI/AAAAAAAAAq4/I2PKTH1XSJk/s1600/normal.jpg'
+  ]
   return (
     <section className="it_solution_hero_section">
       <div className="container">
@@ -19,11 +24,10 @@ const Hero = () => {
                 backgroundImage: `url(${"/images/shapes/it_solution_hero_bg_1.svg"})`,
               }}
             >
-              {/* <div className="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Hi We <span className="badge bg-secondary text-white">Are Techco</span></div> */}
-              <h1>Learn, Grow, and Stream – All in One Ap</h1>
+              <div className="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Hi We </div>
+              <h1>Learn, Grow, and Stream – All in One App</h1>
               <p>
-                A next-gen platform that merges education, marketing strategies,
-                and a premium video experience.
+               A next-generation platform that seamlessly integrates education, digital marketing solutions, and a premium video streaming experience — empowering learners, educators, and businesses to thrive in the digital age.
               </p>
               <ul className="btns_group unordered_list p-0 justify-content-start">
                 <li>
@@ -52,84 +56,68 @@ const Hero = () => {
           </div>
           <div className="col-lg-5">
             <ul className="it_solution_hero_images unordered_list">
+              {/* Main Image Block */}
               <li>
                 <div
                   style={{
                     width: "100%",
-                    maxWidth: "500px", // or any smaller limit like 600px
+                    maxWidth: "500px",
                     aspectRatio: "1 / 1",
                     position: "relative",
                     overflow: "hidden",
+                    borderRadius: "10px",
                   }}
                 >
                   <Image
                     src="https://smartykids.ru/wp-content/uploads/2023/05/teens-high-school-study-abroad-e1586177174717-2048x1178.jpg"
                     alt="Techco - IT Solution - Hero"
                     fill
-                    style={{ objectFit: "cover" }}
+                    style={{ objectFit: "cover", borderRadius: "10px" }}
                   />
                 </div>
               </li>
+
+              {/* Client Avatars + Counter */}
               <li>
                 <div className="worldwide_clients">
                   <div className="counter_value">150+</div>
                   <p>Worldwide Country has lots of clients</p>
-                  <ul className="avatar_group unordered_list">
-                    <li>
-                      <div
-                        style={{
-                          width: "40px",
-                          height: "40px",
-                          borderRadius: "50%",
-                          overflow: "hidden",
-                          position: "relative",
-                        }}
-                      >
-                        <Image
-                          src={'https://protectfinance.ch/wp-content/uploads/2023/11/agent1.jpg'}
-                          alt="Techco - Avatar"
-                          fill
-                          style={{ objectFit: "cover" }}
-                        />
-                      </div>
+
+                  {/* Avatar Group */}
+                  <ul
+                    className="avatar_group unordered_list"
+                    style={{
+                      display: "flex",
+                      gap: "8px",
+                      alignItems: "center",
+                    }}
+                  >
+                    {UserImg.map((i, index) => (
+                      <li key={index}>
+                        <div
+                          style={{
+                            width: "40px",
+                            height: "40px",
+                            borderRadius: "50%",
+                            overflow: "hidden",
+                            position: "relative",
+                            zIndex:'2'
+                          }}
+                        >
+                          <Image
+                            src={i}
+                            alt={`Techco - Avatar ${index + 1}`}
+                            fill
+                            style={{ objectFit: "cover" }}
+                          />
+                        </div>
+                      </li>
+                    ))}
+
+                    {/* Client Count Text */}
+                    <li style={{ fontWeight: "bold", fontSize: "14px",zIndex:'3' }}>
+                      5k+
                     </li>
-                    <li>
-                      <div
-                        style={{
-                          width: "40px",
-                          height: "40px",
-                          borderRadius: "50%",
-                          overflow: "hidden",
-                          position: "relative",
-                        }}
-                      >
-                        <Image
-                          src={'https://protectfinance.ch/wp-content/uploads/2023/11/agent1.jpg'}
-                          alt="Techco - Avatar"
-                          fill
-                          style={{ objectFit: "cover" }}
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        style={{
-                          width: "40px",
-                          height: "40px",
-                          borderRadius: "50%",
-                          overflow: "hidden",
-                          position: "relative",
-                        }}
-                      >
-                        <Image
-                          src={'https://protectfinance.ch/wp-content/uploads/2023/11/agent1.jpg'}
-                          alt="Techco - Avatar"
-                          fill
-                          style={{ objectFit: "cover" }}
-                        />
-                      </div>
-                    </li>
-                    <li>5k+</li>
                   </ul>
                 </div>
               </li>
@@ -159,7 +147,9 @@ const Hero = () => {
                 <div
                   className="business_growth_content"
                   style={{
-                    backgroundImage: `url(${"https://www.retail.ru/upload/medialibrary/db2/z2uzq83jxv4m908pbvy44k299vrhi69x/shutterstock_2269149669.jpg"})`,
+                    borderRadius: "10px",
+                     borderRadius: "10px",
+                    backgroundImage: `url(${"https://strategyjournal.ru/wp-content/uploads/2023/04/man-using-digital-tablet-psd-mockup-smart-technology-rawpixel-2.jpg"})`,
                   }}
                 >
                   <div className="business_growth">

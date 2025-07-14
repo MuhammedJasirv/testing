@@ -44,12 +44,12 @@ const Services = [
   {
     Id: '5',
     sImg: 'https://img.freepik.com/free-photo/teenager-sitting-his-bed-watching-video-using-his-smartphone_23-2149240342.jpg?semt=ais_hybrid&w=740',
-    title: 'Video Streaming',
-    slug: 'video-streaming-platforms',
+    title: 'Video Platform',
+    slug: 'video-platform-platforms',
     thumb1: 'HD Content',
     thumb2: 'Offline Access',
     col: 'col-lg-4',
-    description: 'Deliver high-quality video content with seamless streaming, subscription models, and offline viewing features.',
+    description: 'Deliver high-quality video content with seamless, subscription models, and offline viewing features.',
   },
 ];
   
