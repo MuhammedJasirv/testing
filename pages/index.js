@@ -7,6 +7,7 @@ import PolicySection from '../components/PolicySection/PolicySection';
 import ServiceSection from '../components/ServiceSection/ServiceSection';
 import Scrollbar from '../components/scrollbar/scrollbar';
 import ScrollingText from '../components/scrollingText/scrollingText';
+import Footer from '../components/footer/Footer';
 
 
 const HomePage = () => {
@@ -22,6 +23,7 @@ const HomePage = () => {
                     <About />
                     <PolicySection />
                     <ServiceSection />
+                    <Footer/>
                 </main>
                 <Scrollbar />
             </div>

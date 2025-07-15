@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import about1 from "/public/images/about/about_image_9.webp";
+import about from "/public/images/about/webbbcopy.webp";
 import about2 from "/public/images/about/about_image_11.webp";
 import about3 from "/public/images/about/about_image_10.webp";
 import ModalVideo from "react-modal-video";
@@ -28,7 +29,7 @@ const About = (props) => {
                 }}
               >
                 <Image
-                  src={'https://cdn.mos.cms.futurecdn.net/PKHPHDsfUqomzoCi8VwegK.jpg'}
+                  src={about}
                   alt="Techco - About"
                   fill
                   style={{ objectFit: "cover" }}
@@ -73,7 +74,7 @@ const About = (props) => {
                   <span className="icon_list_icon">
                     <i className="fa-solid fa-circle fa-fw"></i>
                   </span>
-                  <span className="icon_list_text">Marketing.</span>
+                  <span className="icon_list_text">Marketing Solutions.</span>
                 </li>
                 <li>
                   <span className="icon_list_icon">

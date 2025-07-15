@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const ScrollingText = () => {
-  const words = ["Education", "Marketing", "Video Platform"];
+  const words = ["Education", "Marketing Solutions", "Video Platform"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
   // Rotate words every 3 seconds

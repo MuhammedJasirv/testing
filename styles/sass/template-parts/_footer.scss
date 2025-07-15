@@ -42,7 +42,7 @@
 	.iconbox_block.layout_icon_left {
 		.iconbox_icon {
 			color: var(--bs-white);
-			background-color: #1B2155;
+			background-color: #084c81;
 		}
 		.iconbox_title {
 			color: #B6B8CA;
@@ -196,7 +196,6 @@
 		position: relative;
 		margin-bottom: -40px;
 		background-size: auto;
-		border-radius: 0 0 40px 40px;
 		background-repeat: no-repeat;
 		background-color: var(--bs-dark);
 		background-position: center center;
@@ -267,7 +266,7 @@
 		margin-top: 30px;
 		a {
 			color: var(--bs-white);
-			border: 1px solid #1B2155;
+			border: 1px solid  rgb(232, 235, 242);
 			&:hover {
 				color: var(--bs-white);
 				border-color: var(--bs-primary);

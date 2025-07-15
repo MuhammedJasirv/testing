@@ -34,8 +34,8 @@ const Services = [
   {
     Id: '4',
     sImg: 'https://images.pexels.com/photos/3183188/pexels-photo-3183188.jpeg?auto=compress&cs=tinysrgb&w=600',
-    title: 'Digital Marketing',
-    slug: 'digital-marketing',
+    title: 'Marketing Solutions',
+    slug: 'marketing solutions',
     thumb1: 'Campaigns',
     thumb2: 'Brand Strategy',
     col: 'col-lg-4',
