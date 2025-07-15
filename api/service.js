@@ -1,6 +1,6 @@
-import sImg1 from '/public/images/services/service_image_1.webp'
-import sImg2 from '/public/images/services/service_image_2.webp'
-import sImg3 from '/public/images/services/service_image_3.webp'
+import sImg1 from '/public/images/services/Education.jpg'
+import sImg2 from '/public/images/services/Marketing.jpg'
+import sImg3 from '/public/images/services/Video.jpg'
 import sImg4 from '/public/images/services/service_image_4.webp'
 import sImg5 from '/public/images/services/service_image_5.webp'
 
@@ -23,7 +23,7 @@ import icon12 from '/public/images/icons/icon_speed_miter.svg'
 const Services = [
   {
     Id: '3',
-    sImg: 'https://g5-assets-cld-res.cloudinary.com/image/upload/x_1017,y_0,h_2000,w_1334,c_crop/q_auto,f_auto,c_fill,g_center,h_1000,w_667/v1657826027/g5/g5-c-iksswefw-andover-management-llc-client/g5-cl-55s0a7snv-lakewood-park-apartments/uploads/GettyImages-1358014313_dv5o1x.jpg',
+    sImg: sImg1,
     title: 'Education Solutions',
     slug: 'education-services',
     thumb1: 'E-Learning',
@@ -33,7 +33,7 @@ const Services = [
   },
   {
     Id: '4',
-    sImg: 'https://images.pexels.com/photos/3183188/pexels-photo-3183188.jpeg?auto=compress&cs=tinysrgb&w=600',
+    sImg: sImg2,
     title: 'Marketing Solutions',
     slug: 'marketing solutions',
     thumb1: 'Campaigns',
@@ -43,7 +43,7 @@ const Services = [
   },
   {
     Id: '5',
-    sImg: 'https://img.freepik.com/free-photo/teenager-sitting-his-bed-watching-video-using-his-smartphone_23-2149240342.jpg?semt=ais_hybrid&w=740',
+    sImg: sImg3,
     title: 'Video Platform',
     slug: 'video-platform-platforms',
     thumb1: 'HD Content',

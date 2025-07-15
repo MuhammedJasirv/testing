@@ -2,13 +2,9 @@ import React from "react";
 import Link from "next/link";
 import icon from "/public/images/icons/icon_stars_trustpilot.svg";
 import Image from "next/image";
-
+import Student from '/public/images/hero/Student.jpg'
 const Hero = () => {
-  const UserImg = [
-    "https://smartykids.ru/wp-content/uploads/2023/05/teens-high-school-study-abroad-e1586177174717-2048x1178.jpg",
-    "https://i.pinimg.com/originals/c1/b2/8e/c1b28e892453dc4e5918201a0a08caa6.jpg",
-    "https://2.bp.blogspot.com/-3PaCiKGPPRw/VVInwHQQtSI/AAAAAAAAAq4/I2PKTH1XSJk/s1600/normal.jpg",
-  ];
+
 
   return (
     <section className="it_solution_hero_section">
@@ -73,7 +69,7 @@ const Hero = () => {
               }}
             >
               <Image
-                src="https://www.yourtango.com/sites/default/files/image_blog/2024-10/college-student.png"
+                src={Student}
                 alt="Cover image"
                 width={300}
                 height={200}

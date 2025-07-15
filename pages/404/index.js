@@ -16,7 +16,7 @@ const ErrorPage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'404'} pagesub={'Error 🙂'} pageTop={'404'} />
+                {/* <PageTitle pageTitle={'404'} pagesub={'Error 🙂'} pageTop={'404'} /> */}
                 <div className="error-page">
                     <div className="container not-found-content">
                         <div className="row justify-content-center">
@@ -43,7 +43,7 @@ const ErrorPage = (props) => {
                         </div>
                     </div>
                 </div>
-                <CtaSection />
+                {/* <CtaSection /> */}
             </main>
             <Footer />
             <Scrollbar />
