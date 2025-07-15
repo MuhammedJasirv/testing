@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import '../styles/animate.css'
 import '../styles/fontawesome.css';
-import '../styles/themify-icons.css';
+import '../styles/themify-icons.css';  
 import '../styles/animate.css';
 import '../styles/sass/style.scss';
 import "slick-carousel/slick/slick.css";
