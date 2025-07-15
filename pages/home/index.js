@@ -22,7 +22,6 @@ const HomePage = () => {
                     <About />
                     <PolicySection />
                     <ServiceSection />
-                    <ProjectSection />
                 </main>
                 <Footer />
                 <Scrollbar />

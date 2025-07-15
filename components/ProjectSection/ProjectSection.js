@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Pagination, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
-import Project from '../../api/project';
 
 const ProjectSection = () => {
     const [hydrated, setHydrated] = useState(false);
@@ -19,6 +18,7 @@ const ProjectSection = () => {
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     };
+    const Project=[]
 
     const displayedProjects = Project && Project.length > 0 ? Project.slice(0, 5) : [];
 
